@@ -35,6 +35,7 @@ export abstract class BsDatepickerAbstractComponent {
   multipleCalendars?: boolean;
 
   isRangePicker?: boolean;
+  timePickerMedidian?: boolean;
   withTimepicker?: boolean;
 
   set minDate(value: Date|undefined) {

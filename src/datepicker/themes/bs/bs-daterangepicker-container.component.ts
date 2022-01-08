@@ -96,6 +96,7 @@ export class BsDaterangepickerContainerComponent extends BsDatepickerAbstractCom
     this.containerClass = this._config.containerClass;
     this.isOtherMonthsActive = this._config.selectFromOtherMonth;
     this.withTimepicker = this._config.withTimepicker;
+    this.timePickerMedidian = this._config.timePickerMedidian;
     this._effects?.init(this._store)
       // intial state options
       // todo: fix this, split configs

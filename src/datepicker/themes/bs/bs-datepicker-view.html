@@ -21,8 +21,8 @@
           </bs-days-calendar-view>
         </div>
         <div *ngIf="withTimepicker" class="bs-timepicker-in-datepicker-container">
-          <timepicker #startTP></timepicker>
-          <timepicker #endTP *ngIf="isRangePicker"></timepicker>
+          <timepicker #startTP [showMeridian]="timePickerMeridian"></timepicker>
+          <timepicker #endTP *ngIf="isRangePicker" [showMeridian]="timePickerMeridian"></timepicker>
         </div>
       </ng-container>
 

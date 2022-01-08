@@ -179,6 +179,12 @@ export class BsDatepickerConfig implements DatepickerRenderOptions {
    * Shows timepicker under datepicker
    */
   withTimepicker = false;
+
+  /**
+   * Set timepicker meridian mode
+   */
+  timePickerMeridian = false;
+
   /**
    * Set current hours, minutes, seconds and milliseconds for bsValue
    */
